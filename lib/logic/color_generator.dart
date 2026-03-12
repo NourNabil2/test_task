@@ -25,6 +25,7 @@ class ColorGenerator {
   /// returning white for dark backgrounds and black for light backgrounds.
   Color computeContrastingTextColor(Color backgroundColor) {
     final double luminance = backgroundColor.computeLuminance();
+    // ignore: newline_before_return
     return luminance > _kLuminanceThreshold ? Colors.black : Colors.white;
   }
 }
