@@ -20,8 +20,10 @@ A Flutter application that changes its background to a random color on every tap
 ```
 lib/
 ├── main.dart           # App entry point & root widget
-├── home_screen.dart    # UI layer (StatefulWidget)
-└── color_generator.dart # Business logic (pure Dart class)
+├── view 
+    |home_screen.dart    # UI layer (StatefulWidget)
+└── logic
+    |color_generator.dart # Business logic (pure Dart class)
 ```
 
 ### Why this separation?
