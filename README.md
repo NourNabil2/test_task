@@ -84,7 +84,7 @@ Unit tests cover:
 
 ## 🛠 Tools & Static Analysis
 
-- **`flutter_lints`** — enforces Flutter best practices via `analysis_options.yaml`.
+- **`solid_lints`** — the primary lint ruleset, enforcing SOLID principles and Clean Code standards in Dart/Flutter. Used via `include: package:solid_lints/analysis_options.yaml`.
 - Rules enabled include `prefer_const_constructors`, `prefer_final_fields`, `public_member_api_docs`, and more.
 - Zero analyzer warnings in the codebase.
 
@@ -97,5 +97,4 @@ flutter pub get
 flutter run
 ```
 
-**Requirements:** Flutter ≥ 3.10 · Dart ≥ 3.0# test_task
-# test_task
+**Requirements:** Flutter ≥ 3.10 · Dart ≥ 3.0

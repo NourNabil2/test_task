@@ -5,15 +5,11 @@ void main() {
   runApp(const ColorTapApp());
 }
 
-/// Root widget of the application.
-///
-/// Configured as a [StatelessWidget] with [const] constructor for optimal
-/// performance — it never needs to rebuild itself.
+/// Color test App
 class ColorTapApp extends StatelessWidget {
-  /// Creates the [ColorTapApp].
   const ColorTapApp({super.key});
 
-  /// Application title used by the OS task switcher.
+  /// title of the app.
   static const String _kAppTitle = 'Color Tap';
 
   @override
